@@ -22,7 +22,6 @@ import { ContactComponent } from './contact/contact.component';
 import { LargeImageContactComponent } from './large-image-contact/large-image-contact.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { FromDetailsComponent } from './from-details/from-details.component';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -49,8 +48,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    FontAwesomeModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
